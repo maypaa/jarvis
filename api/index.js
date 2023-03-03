@@ -7,7 +7,7 @@ app.use((req,res,next)=>{
     next();
 });
 //route
-app.get("/", (req,res)=>{
+app.get("/api/mypa", (req,res)=>{
         res.send("romi");
 });
 
